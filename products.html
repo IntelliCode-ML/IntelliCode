@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects - Intelli Code</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0F0C29, #302B63, #24243E);
+            color: white;
+            text-align: center;
+        }
+        .header {
+            padding: 80px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+        }
+        .header h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px 20px;
+        }
+        .project {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: left;
+            transition: 0.3s;
+            position: relative;
+        }
+        .project:hover {
+            box-shadow: 0 0 15px rgba(25, 0, 213, 0.8),
+                        0 0 25px rgba(45, 0, 74, 0.8),
+                        0 0 35px rgba(56, 0, 140, 0.8);
+        }
+        .project h3 {
+            font-size: 1.5em;
+        }
+        .project p {
+            font-size: 1em;
+            opacity: 0.8;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #FF4081;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 1.1em;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #E91E63;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Our Projects</h1>
+        <p>Explore the innovative projects we have built for our clients.</p>
+    </header>
+    <section class="projects">
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>A modern website for a startup, featuring a sleek design and optimized performance.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Developed an e-commerce platform with seamless payment integration and responsive UI.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>Created a portfolio website for a designer, showcasing their work with a dynamic gallery.</p>
+        </div>
+    </section>
+    <footer>
+        <a href="index.html" class="btn">Back to Home</a>
+    </footer>
+</body>
+</html>
